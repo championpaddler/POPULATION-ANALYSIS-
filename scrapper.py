@@ -1,4 +1,5 @@
 import requests
+import Pandas as pd
 url=requests.get("http://wdi.worldbank.org/table/WV.1")
 t=url.text
 from bs4 import BeautifulSoup
