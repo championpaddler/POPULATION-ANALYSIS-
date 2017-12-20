@@ -55,8 +55,8 @@ list101=pd.Series.tolist(bv[0:7][10])
     
 
 #Current population
-DataFrame=pd.DataFrame({"Year":listq,"Population":list1,"Yearly % Change":list2,"YearlyChange":list3,"Migrants (net)":list4,"Median Age":list5,"Fertility Rate	Density (P/Km²)	UrbanPop ":list6,"Urban Population":list7,"Gross domestic product % growth":list8,"World Population":list9,"India Global Rank":list10})
-DataFrame1=pd.DataFrame({"Year":listq1,"Population":list11,"Yearly % Change":list21,"YearlyChange":list31,"Migrants (net)":list41,"Median Age":list51,"Fertility Rate	Density (P/Km²)	UrbanPop ":list61,"Urban Population":list71,"Gross domestic product % growth":list81,"World Population":list91,"India Global Rank":list101})
+DataFrame=pd.DataFrame({"Year":listq,"Population":list1,"Yearly % Change":list2,"YearlyChange":list3,"Migrants (net)":list4,"Median Age":list5,"Fertility Rate	Density (P/KmÂ²)	UrbanPop ":list6,"Urban Population":list7,"Gross domestic product % growth":list8,"World Population":list9,"India Global Rank":list10})
+DataFrame1=pd.DataFrame({"Year":listq1,"Population":list11,"Yearly % Change":list21,"YearlyChange":list31,"Migrants (net)":list41,"Median Age":list51,"Fertility Rate	Density (P/KmÂ²)	UrbanPop ":list61,"Urban Population":list71,"Gross domestic product % growth":list81,"World Population":list91,"India Global Rank":list101})
 print("Current Population")
 print(DataFrame)
 print("Future Popultion")
